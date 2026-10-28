@@ -2,7 +2,7 @@
 
 An automated data engineering and analytics pipeline designed for **Pesa Pulse** (Nairobi, Kenya) to securely download, flatten, validate, and chart structured customer directory profiles from a partner REST endpoint prior to launch campaigns.
 
-## 🚀 Execution Guide
+## Execution Guide
 
 Follow these sequential environment steps to initialize your sandbox and execute the core pipeline securely:
 
@@ -43,7 +43,7 @@ Upon processing initiation, the engine establishes streaming validation linkages
 
 ---
 
-## 🛠️ Implementation Architecture
+## Implementation Architecture
 
 The framework splits tracking operations across clean structural boundaries to satisfy engineering marking requirements:
 
@@ -53,7 +53,7 @@ The framework splits tracking operations across clean structural boundaries to s
 
 ---
 
-## 🔍 Data Discoveries & Strategy Insights
+## Data Discoveries & Strategy Insights
 
 * **Perfect Audience Fragmentation:** Our market contains **10 total active records scattered uniformly across 10 separate unique cities**. Because regional population concentration is non-existent, marketing dollars should avoid localized physical ad campaigns (like billboards) and favor wider programmatic online distribution funnels.
 * **Top-Level Domain Suffix Penetration:** Sorting the target customer mailing extensions isolates **.biz** as the leading Top-Level Domain extension (representing 40% of overall user volume across 4 profiles), pointing to a distinctly business-centric user base.
@@ -61,8 +61,10 @@ The framework splits tracking operations across clean structural boundaries to s
 
 ---
 
-## 📋 Underlying System Assumptions
+## Underlying System Assumptions
 
 * **Fallback Structural Metrics:** Missing nested location properties can fall back on coordinate defaults of `0.0` without invalidating adjacent profile record arrays.
 * **Domain Extraction Scope:** In compliance with template specifications, the field variable tracking `email_domain` targets the isolated terminal top-level domain suffix string element (e.g., parsing `biz` out of a user email layout).
 * **Availability Thresholds:** Pipeline tasks assume the upstream server maintains structural schema tree configurations, with native exception handlers intercepting temporary connection timeouts gracefully.
+
+Built by [Jesse Ngugi](https://ngugi.pages.dev)
